@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% block title %}
+	About me
+{% endblock %}
+
+{% block content %}
+	<ul>
+        <li><img src="{% static 'images/profilephoto.jpg' %}" alt="Profile photo"></li>
+        <li>
+            <p>
+                I am Alessandra, a passionate photographer who loves capturing the beauty of the world around me. 
+                Each click of my camera is an adventure, revealing emotions and stories. 
+                My style is authentic and personal, reflecting my unique vision. Photography is not 
+                just my work; it’s my life and my art.
+            </p>
+        </li>
+    </ul>
+{% endblock %}

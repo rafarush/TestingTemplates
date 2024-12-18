@@ -1,0 +1,23 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% block title %}
+	My Work
+{% endblock %}
+
+{% block content %}
+	<ul>
+        <li>
+            <img src="{% static 'images/photos/landscape1.jpg' %}" alt="landscape1">
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <img src="{% static 'images/photos/landscape2.jpg' %}" alt="landscape1">
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <img src="{% static 'images/photos/landscape3.jpg' %}" alt="landscape1">
+        </li>
+    </ul>
+{% endblock %}
